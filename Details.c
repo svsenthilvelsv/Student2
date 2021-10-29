@@ -10,6 +10,8 @@ int main()
     scanf("%d",&rollno);
      printf("Enter your AGE         :");
     scanf("%d",&age);
+    printf("Enter your Tele num         :");
+    scanf("%d",&num);
     printf("Enter your FATHER NAME  :");
     scanf("%s",father_name);
     printf("Enter your MOTHER NAME  :");
