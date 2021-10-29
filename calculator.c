@@ -32,6 +32,7 @@ class Main {
       case '-':
         result = number1 - number2;
         System.out.println(number1 + " - " + number2 + " = " + result);
+        System.out.println(number1 + " + " + number2 + " = " + result);
         break;
 
       // performs multiplication between numbers
