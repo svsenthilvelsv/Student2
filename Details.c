@@ -3,7 +3,7 @@
 int main()
 {
     char name[100],father_name[100],mother_name[100],email[100],adress[100],blood[100];
-    int rollno,age,phone,aadhar;
+    int rollno,age,phone,aadhar,pan;
     printf("Enter your NAME         :");
     scanf("%s",name);
     printf("Enter your ROLLL NO     :");
@@ -18,6 +18,8 @@ int main()
     scanf("%s",blood);
     printf("Enter your AADHAR       :");
     scanf("%d",&aadhar);
+    printf("Enter your PAN NUMBER       :");
+    scanf("%d",&pan);
     printf("Enter your ADDRESS      :");
     scanf("%s",adress);
     printf("Enter your PHONE NUMBER :");
